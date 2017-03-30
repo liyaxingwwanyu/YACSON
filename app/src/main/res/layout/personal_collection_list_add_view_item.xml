@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/personal_collection_content_list_parent_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/personal_collection_list_delete_iv"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/personal_collection_content_list_layout_rl"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/personal_collection_content_list_layout_rl"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:scaleType="center"
+            android:src="@drawable/personal_collection_list_delete_iv" />
+
+        <include
+            android:id="@+id/personal_collection_content_list_layout_rl"
+            layout="@layout/wf_item_for_list_type_version_one" />
+
+        <ImageView
+            android:id="@+id/personal_collection_list_choose_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:background="@drawable/personal_collection_site_operating_box_thumb_up_default"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 1.侧边栏 start -->
+    <string name="country_select_title">地区</string>
+    <string name="topics_select_title">话题</string>
+    <string name="action_settings">设置</string>
+    <string name="business_cooperation">商务说明</string>
+    <string name="detection_update">版本更新</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="function">功能</string>
+    <string name="channels">话题</string>
+    <string name="edit">编辑</string>
+    <!-- setting子页面1.3.1：Home mode setting start -->
+    <string name="locking_mode">首屏主题</string>
+    <string name="closing_lock_screen">首屏开关</string>
+    <string name="lock_style_scheme_one">主题 1</string>
+    <string name="lock_style_scheme_two">主题 2</string>
+    <string name="lock_style_used">已使用</string>
+    <string name="lock_style_use">使用</string>
+    <!-- setting子页面1.3.1：Home mode setting end -->
+    <!-- setting子页面1.3.2：password start -->
+    <string name="pwd_unlock_setPassword">设置数字密码</string>
+    <string name="input_four_pwd">请输入4位解锁密码</string>
+    <string name="lockScreenActivity_passWordOrPicunLock">取消首屏密码</string>
+    <string name="confirm_again">请再确认一次</string>
+    <string name="set_inconsist">两次输入的密码不一致，请重新输入</string>
+    <string name="set_password_success">密码设置成功</string>
+    <string name="make_sure_old">请先输入您的旧密码</string>
+    <string name="password_error">密码输入错误</string>
+    <string name="lock_patternTitle">设置图形密码</string>
+    <string name="draw_pattern">请绘制解锁图案</string>
+    <string name="lock_pattern_setting_tvInfo">请绘制解锁图案</string>
+    <string name="set_shortcuts">设置快捷键</string>
+    <string name="draw_points">请连接至少4个点</string>
+    <string name="draw_inconsist">两次解锁图形绘制的不一致,请重新绘制</string>
+    <string name="makesure_drawpoints">请确定解锁图案</string>
+    <string name="answer_drawpoints">绘制解锁图案，请至少连接4个点</string>
+    <string name="cancel">取消</string>
+    <string name="submit">确定</string>
+    <string name="keepin_mind"> 解锁图案已设定，请牢记您的手势图案  </string>
+    <string name="ident_failed"> 手势确认失败，请重新绘制 </string>
+    <string name="gest_clear"> 确认成功，手势已清除 </string>
+    <string name="digital_password">数字密码</string>
+    <string name="graphics_password">图形密码</string>
+    <string name="confirm_old_pic"> 请先确认您的旧图形  </string>
+    <string name="new_drawpoints">确认成功，请绘制新的手势图形   </string>
+    <!-- setting子页面1.3.2：password end -->
+    <!-- setting子页面1.3.3：Setting Shortcuts start -->
+    <string name="kuaijiejian">设置快捷键</string>
+    <string name="kuaijiejian_title">添加</string>
+    <string name="setting_customTopTitle">已添加</string>
+    <string name="setting_customMidTitle">选择添加</string>
+    <!-- setting子页面1.3.3：Setting Shortcuts end -->
+    <!-- setting子页面1.3.3：Setting Saver start -->
+    <string name="screen_saver">设置屏保</string>
+    <!-- setting子页面1.3.3：Setting Saver end -->
+    <!-- setting子页面1.4.1：Feedback start -->
+    <string name="feedback">意见反馈</string>
+    <!-- setting子页面1.4.1：Feedback end -->
+    <!-- 1.5.1： business start -->
+    <string name="india_third_title">商务说明</string>
+    <string name="usingHelpActivity_tv_answer_new">COOLOOK是什么?\nCOOLOOK是一个全球媒体资讯机构，以最快的速度，传递给大家准确的、可靠的即时事件,头条新闻,鲜亮的图片资源和最新的视频短片。\n为什么选COOLOOK ?\nCOOLOOK聚合来自世界各地200多个国家，超过6000家的媒体内容资源，全网资讯一手掌握。目前COOLOOK移动端支持近183个国家，86种语言的版本选择。COOLOOK会是您最值得的信赖。\n想要进一步了解并与COOLOOK合作,尽快联系我们吧。</string>
+    <string name="aboutZY_bottomTitle3">商务合作:coolooktop@gmail.com</string>
+    <!-- 1.5.1： business end -->
+    <!-- 1.6.1：Detection start -->
+    <string name="india_please_lastest">当前已是最新版本</string>
+    <string name="detection_for_update">版本更新</string>
+    <string name="blue_Download">下载</string>
+    <string name="upate_textContent">已检测到最新版本，请更新</string>
+    <!-- 1.6.1：Detection end -->
+    <!-- 1.侧边栏 end -->
+    <!-- 2.瀑布流 start -->
+    <!-- 瀑布流 2.1.1 分类信息 start -->
+    <string name="coolook_title_prefix">Coolook-</string>
+    <string name="information">资讯</string>
+    <string name="game_title">游戏</string>
+    <!-- 瀑布流 2.1.1 分类信息 end -->
+    <!-- 瀑布流 2.1.2 搜索 start -->
+    <string name="search">搜索</string>
+    <string name="hot_search">热词搜索</string>
+    <string name="history">历史记录</string>
+    <string name="delete_all_history">删除历史记录</string>
+    <!-- 瀑布流 2.1.2 搜索 end -->
+    <!-- 2.瀑布流 end -->
+    <!-- 3.瀑布流 start -->
+    <string name="zuoyoo_unlock_text">请滑动解锁</string>
+    <!-- 3.瀑布流 end -->
+    <!-- 4.搜索  start -->
+    <string name="search_head_edit_hint">请输入搜索内容</string>
+    <string name="search_clear_history">清除历史</string>
+    <string name="search_all">所有</string>
+    <string name="search_network">网络</string>
+    <string name="search_app">应用</string>
+    <!-- 4.搜索  end -->
+    <!-- 5.游戏  start -->
+    <string name="more_recommendation">精彩应用推荐</string>
+    <string name="download">下载</string>
+    <!-- 5.游戏  end -->
+    <!-- 6.minisite  start -->
+    <string name="font_size">字体大小</string>
+    <string name="more_games">更多推荐</string>
+    <string name="down_load_apk_notificationBigTextView">一项任务正在下载</string>
+    <string name="down_load_apk_notificationTextView">0%</string>
+    <!-- 6.minisite  end -->
+    <!-- 7.锁屏 start -->
+    <!-- 7.1 锁屏快捷键 start -->
+    <string name="phone">电话</string>
+    <string name="flashlight">手电筒</string>
+    <string name="calculator">计算器</string>
+    <string name="camera">相机</string>
+    <string name="messages">短信</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="clock">闹钟</string>
+    <string name="customize">自定义</string>
+    <string name="new_message">新消息</string>
+    <!-- 7.1 锁屏快捷键 end -->
+    <!-- 7.1 锁屏密码 start -->
+    <string name="pic_error">绘制图案错误,请重新绘制</string>
+    <string name="draw_pic">绘制图案正确</string>
+    <!-- 7.1 锁屏密码  end -->
+    <!-- 7.锁屏 end -->
+    <!-- 8.ShowWebImage  start -->
+    <string name="save_pop_content">保存到手机</string>
+    <string name="save_pic">图片保存成功,图片保存到:</string>
+    <string name="no_sdcard">没有sd卡</string>
+    <string name="download_failed">下载失败</string>
+    <!-- 8.ShowWebImage  end -->
+
+
+    <!-- 9.无网状态 start -->
+    <string name="no_network">当前网络不可用，请检测网络连接</string>
+    <!-- 9.无网状态 end -->
+
+
+    <!-- 历史分割线 -->
+    <string name="app_name">0329</string>
+    <string name="update_tv_dialog_info">New version detected, update?</string>
+    <string name="lastest_edition_detected">Download or not ?</string>
+    <string name="blue_YES">YES</string>
+    <string name="no_D">NO</string>
+    <string name="test_text">Test Text .</string>
+    <string name="aboutzy_code_text">版本号：v2.0</string>
+    <string name="is_titler">Title</string>
+    <string name="minisite_et_commentDialogTwo">Edit the content you want to comment</string>
+    <string name="minisite_et_commentDialog">Edit the content you want to post</string>
+    <string name="date">December, 12th, Sunday</string>
+    <string name="is_category">Category </string>
+    <string name="webview_dialog_tv_dialog_info">Do you want to log out?</string>
+    <string name="setting_custom_sc_edit">Edit</string>
+    <string name="usingHelpActivity_tv_answer">"\u3000\u3000Lock screen is no longer defined as a kind of mechanical action, a single picture or with a unchanging function. It could be consider as the fashion, the media or the place which we could find splendid and beautiful things , and it give us an open mind and a new lifestyle!
+    Coolook explores new ideas in the area of lock screen. It is full of new discovery and new splendid information, and we could say it is the lock screen of ‘fashion or media’.
+    Come on! Let’s discover new wonderful things, new mind and new coolook.</string>
+    <string name="aboutZY_bottomTitle2">Just discover all the time.</string>
+    <string name="india_first_title">Way to unlock screen </string>
+    <string name="india_second_title">Version update</string>
+    <string name="lockwayActivity_title">Choose the unlock screen method</string>
+    <string name="lockScreenActivity_lockScreenActivity">Unlock screen with pictures</string>
+    <string name="lockScreenActivity_passWordunLock">Unlock screen with password</string>
+    <string name="good_text">good</string>
+    <string name="recommend_apksize_test">3.2MB</string>
+    <string name="app_states_open">Open</string>
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="version_name">The version name:</string>
+    <string name="replace_pic">Change pattern </string>
+    <string name="unlock_pic"> Pattern </string>
+    <string name="unlock_password"> Password </string>
+    <string name="modified_password"> Change password</string>
+    <string name="is_on_downloading">New version downloading Please wait</string>
+    <string name="right_slide_to_unlock">Slide the unlock strip to the right to unlock </string>
+    <string name="left_slide_to_unlock">Slide the unlock strip to the left to read the detailed content </string>
+    <string name="refresh_data_failed">The version of zuoyou lock screen update failed Try again </string>
+    <string name="is_app_not_stall">This app is not installed</string>
+    <string name="need_restall">Sorry, there is something wrong with the app The app will restart</string>
+    <string name="app_states_downloading">Download&#8230;</string>
+    <string name="topgame_title">My Game</string>
+    <string name="behindgame_title">More Great Games</string>
+    <!-- 历史分割线 -->
+    <!-- temp -->
+    <string name="country_select_subtitle">语言</string>
+    <string name="ad_BottomTitle">活动</string>
+    <string name="language_and_country">语言与地区</string>
+    <string name="welcome_wifi_tip1">当前网络不可用！</string>
+    <string name="welcome_wifi_tip2">请连接网络再次进入！</string>
+    <string name="double_click_exit">再按一次退出NewsCoolook</string>
+    <string name="recommend">推荐</string>
+    <string name="preference_setting">主屏设置</string>
+    <string name="password_setting">密码设置</string>
+    <string name="num_password_clear_success">密码取消成功！</string>
+    <string name="share_no_set_img">未设置分享图片</string>
+    <!-- temp -->
+
+
+    <string name="login">登录</string>
+    <string name="input_email_accounts">请输入邮箱地址</string>
+    <string name="input_password">请输入密码</string>
+    <string name="email_format_error">邮箱格式错误</string>
+    <string name="password_format">请输入6到15位数字和字母的组合密码</string>
+    <string name="email_accounts">邮箱地址</string>
+    <string name="new_password">请输入新密码</string>
+    <string name="register">注册</string>
+    <string name="email_has_been_registered">邮箱已被注册</string>
+    <string name="failure">失败</string>
+    <string name="password_mistake">密码错误</string>
+    <string name="email_does_not_exist">邮箱不存在</string>
+    <string name="has_returned_to_email">已重发邮件</string>
+    <string name="email_has_been_sent">邮件已发送！请到邮箱确认密码，确认后新密码生效。</string>
+    <string name="success_login">登录成功</string>
+    <string name="registration_email_activation">注册成功，已登录，请到邮箱激活账户</string>
+    <string name="confirm_exit">退出登录</string>
+    <string name="confirm_exit_hit">是否安全退出！</string>
+    <string name="personal_center">个人中心</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="seting_success">设置成功</string>
+    <string name="there_is_no_account">账户不存在</string>
+    <string name="old_password_is_wrong">旧密码有误</string>
+    <string name="old_and_password">新旧密码不能一致</string>
+    <string name="nick_name">昵称</string>
+    <string name="gender">性别</string>
+    <string name="account">邮箱</string>
+    <string name="modify_password">修改密码</string>
+    <string name="original_password">请输入旧密码</string>
+    <string name="determine">确定</string>
+    <string name="sign_out">退出</string>
+    <string name="nickname_hint">2_20个字符</string>
+    <string name="gallery">相册</string>
+    <string name="more">加载更多</string>
+    <string name="nomore">没有更多</string>
+    <string name="comment">点击评论</string>
+    <string name="comments">评论</string>
+    <string name="hot">最热</string>
+    <string name="news">最新</string>
+    <string name="related_stories">相关文章</string>
+    <string name="delete">删除</string>
+    <string name="not_login">未登录</string>
+    <string name="information_is_empty">信息为空</string>
+    <string name="comment_on_success">评论成功</string>
+    <string name="comment_on_failure">评论失败</string>
+    <string name="thumb_up_success">点赞成功</string>
+    <string name="cancel_thumb_up_success">取消点赞成功</string>
+    <string name="cancel_thumb_up_failure">取消点赞失败</string>
+    <string name="thumb_up_failure">点赞失败</string>
+    <string name="collection_success">收藏成功</string>
+    <string name="collection_failure">收藏失败</string>
+    <string name="cancel_collection_success">取消收藏成功</string>
+    <string name="cancel_collection_failure">取消收藏失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_failure">删除失败</string>
+    <string name="collect_list">收藏列表</string>
+    <string name="send_email">发送邮件</string>
+    <string name="comments_hint">2-600个字符</string>
+    <string name="collection">收藏</string>
+    <string name="message">消息</string>
+    <string name="money">ck币</string>
+    <string name="quiz">预言</string>
+    <string name="my_ck">任务</string>
+    <string name="personal_collection_null">您没有收藏的文章</string>
+    <string name="personal_message_null">没有您的消息</string>
+    <string name="delete_comment">您确定要删除这条评论？</string>
+    <string name="volume">音量</string>
+    <string name="brightness">亮度</string>
+
+    <string name="published_articles">发布文章</string>
+    <string name="open_the_account">开通账户</string>
+    <string name="release_predictions">发布预言</string>
+    <string name="please_input_title">请输入标题</string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="add_options">添加选项</string>
+    <string name="add_quiz_options">预言选项</string>
+    <string name="quiz_options">填写选项</string>
+    <string name="betting_time">预言时间</string>
+    <string name="bet_start_time">开始时间</string>
+    <string name="bet_end_time">结束时间</string>
+    <string name="key_word">填写关键词</string>
+    <string name="add_key_words">添加关键词</string>
+    <string name="enter_key_words">请输入关键词</string>
+    <string name="post_quiz">确定</string>
+    <string name="agree_upload">同意发布协议</string>
+    <string name="release_protocol">发布协议</string>
+    <string name="account_audit">审核提交成功，审核通过后我们会以邮件的形式告知。</string>
+    <string name="working_group">Coolook 工作组</string>
+    <string name="website">http://www.coolook.top</string>
+    <string name="name">姓名</string>
+    <string name="please_input_name">请输入姓名</string>
+    <string name="country">国家</string>
+    <string name="please_input_country">请输入国家</string>
+    <string name="city">城市</string>
+    <string name="please_input_city">请输入城市</string>
+    <string name="category">文章分类</string>
+    <string name="please_input_category">请输入文章分类</string>
+    <string name="article_published">文章链接</string>
+    <string name="please_input_article_published">请输入文章链接</string>
+    <string name="bound_account">绑定邮箱</string>
+    <string name="please_input_bound_account">请输入要绑定的邮箱</string>
+    <string name="phone_number">手机号</string>
+    <string name="please_input_phone_number">请输入手机号</string>
+    <string name="please_input_language">请输入语言</string>
+    <string name="information_incomplete">输入信息不完整</string>
+    <string name="backstage_upload">上传中…</string>
+    <string name="edit_is_save">本次编辑内容是否存为草稿</string>
+    <string name="is_save">保存</string>
+    <string name="not_save">不保存</string>
+    <string name="replace">替换</string>
+    <string name="start_time_today">开始时间不能晚于现在时间</string>
+    <string name="end_time_late">竞猜的前后时间不得大于60天</string>
+    <string name="end_after_start_time">结束时间不能早于开始时间</string>
+    <string name="uploaded_successfully">上传成功</string>
+    <string name="uploaded_failure">上传失败</string>
+    <string name="select_web">您将使用原网页浏览吗？</string>
+    <string name="select_web_hint">使用网页打开，板式与打开速度不统一</string>
+    <string name="select_coolook">使用Coolook打开</string>
+    <string name="select_coolook_hint">授权coolook浏览模式</string>
+    <string name="classify_topic">选择话题分类</string>
+    <string name="release_quiz">发布预言</string>
+    <string name="look_quiz">查看预言</string>
+    <string name="email_has_been_sent_examine">邮箱已发送，请及时查收:</string>
+    <string name="email_sent_later">邮件已发送请稍候再试</string>
+
+
+    <string name="aboutus1">商务说明</string>
+    <string name="aboutus5">商务说明</string>
+    <string name="aboutus2">Copyright/DMCA Issue</string>
+    <string name="aboutus3">Privacy Policy</string>
+    <string name="aboutus4">User Agreement</string>
+    <string name="favorite">收藏</string>
+    <string name="about">About us</string>
+
+    <string name="look_now">快速浏览</string>
+    <string name="look_loading">加载慢?点击下方快速浏览</string>
+
+    <string name="look_web">Web</string>
+    <string name="look_coolook">Coolook</string>
+    <string name="wf_browse_select">浏览版式</string>
+    <string name="new_version_coolook_hint">已发现coolook最新版本，是否安装？</string>
+
+</resources>

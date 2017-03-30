@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/personal_center_user_info_nickname_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/personal_center_user_info_nickname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/nick_name"
+                android:textColor="#212121"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/personal_center_user_info_nickname_iv"
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/personal_center_user_info_nickname_right_arrow" />
+
+            <TextView
+                android:id="@+id/personal_center_user_info_nickname_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:textColor="#BDBDBD"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DEDEDE" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_user_info_gender_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/personal_center_user_info_gender_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/gender"
+                android:textColor="#212121"
+                android:textSize="16dp" />
+
+            <RadioGroup
+                android:id="@+id/personal_center_user_info_gender_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/personal_center_user_info_gender_boy_rb"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_launcher22"
+                    android:button="@null"
+                    android:checked="true" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="1dp" />
+
+                <RadioButton
+                    android:id="@+id/personal_center_user_info_gender_girl_rb"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_launcher22"
+                    android:button="@null" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DEDEDE" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_user_info_account_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/personal_center_user_info_account_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/account"
+                android:textColor="#212121"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/personal_center_user_info_account_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/personal_center_user_info_account_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:textColor="#BDBDBD"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DEDEDE" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_user_info_modify_password_rl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/personal_center_user_info_modify_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/modify_password"
+                android:textColor="#212121"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/personal_center_user_info_modify_password_iv"
+                android:layout_width="10dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/personal_center_user_info_nickname_right_arrow" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

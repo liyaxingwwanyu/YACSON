@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/login_register_third_login_btn_parent_ll"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/login_register_third_login_btn_fb_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/login_register_third_login_fb_default" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/login_register_third_login_btn_tw_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_launcher22" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/login_register_third_login_btn_gp_iv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/login_register_third_login_gp_default" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/login_register_third_login_above_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

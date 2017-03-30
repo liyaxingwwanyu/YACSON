@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/personal_published_open_the_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_whiteE"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/personal_published_articles_name_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/name"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_name_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_name"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/personal_published_articles_country_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/country"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_country_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_country"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/personal_published_articles_city_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/city"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_city_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_city"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/personal_published_articles_language_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/country_select_subtitle"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_language_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_language"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/personal_published_articles_category_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/category"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_category_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_category"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/personal_published_articles_article_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:gravity="center_vertical"
+                    android:text="@string/article_published"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_article_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_article_published"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/personal_published_articles_account_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/bound_account"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_account_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_bound_account"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="3dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <TextView
+                    android:id="@+id/personal_published_articles_phone_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textSize="16dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider" />
+
+                <EditText
+                    android:id="@+id/personal_published_articles_phone_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@null"
+                    android:hint="@string/please_input_phone_number"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/black_opaque_thirteen"
+                    android:textColorHint="@color/dialog_nick"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp">
+
+                <Button
+                    android:id="@+id/personal_published_articles_submit_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_B9"
+                    android:text="@string/submit"
+                    android:textColor="@color/transmenu_white"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/personal_published_articles_audit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_marginTop="144dp"
+            android:text="@string/account_audit"
+            android:textColor="@color/gray_79"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/working_group"
+                android:textColor="@color/blue_26"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/website"
+                android:textColor="@color/blue_26"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

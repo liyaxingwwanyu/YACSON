@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/login_register_user_info_nickname_dialog_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp">
+
+            <TextView
+                android:id="@+id/login_register_user_info_nickname_dialog_item_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/nick_name"
+                android:textColor="@color/dialog_tv"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_launcher22">
+
+            <EditText
+                android:id="@+id/login_register_user_info_nickname_dialog_item_content_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/dialog_tv"
+                android:textColorHint="@color/dialog_nick"
+                android:textCursorDrawable="@null"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/login_register_user_info_nickname_dialog_item_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:text="@string/nickname_hint"
+                android:textColor="@color/dialog_nick" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/login_register_user_info_nickname_dialog_item_cancel_tv"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/dialog_cancel"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/login_register_user_info_nickname_dialog_item_submit_tv"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_launcher22"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_register_user_info_email_dialog_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher22"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/login_register_user_info_email_content_dialog_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="18dp"
+            android:paddingLeft="34dp"
+            android:paddingRight="34dp"
+            android:paddingTop="24dp"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/title_unselected" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/login_register_user_info_email_submit_dialog_item_tv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/exit_dialog_cancel"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
