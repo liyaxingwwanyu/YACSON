@@ -53,6 +53,7 @@ public class UILayoutMrg {
             if (mUICtlDefaults.get(lCurID) != null) {
                 continue;
             }
+            System.out.println("UILayoutMrg.create---"+lCurID);
             UIStructDefault lUIStructDefault = new UIStructDefault(mUILayoutConfigDefault);
             lUIStructDefault.setView(mContext, mView);
             if (aBSModels != null) {
