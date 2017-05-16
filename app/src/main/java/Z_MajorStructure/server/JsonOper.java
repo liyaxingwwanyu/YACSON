@@ -1,4 +1,4 @@
-package server;
+package Z_MajorStructure.server;
 
 import android.text.TextUtils;
 

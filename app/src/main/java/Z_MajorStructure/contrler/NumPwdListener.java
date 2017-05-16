@@ -1,8 +1,8 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.view.View;
 
-import observer.ObservableDefault;
+import Z_MajorStructure.observer.ObservableDefault;
 
 
 /**

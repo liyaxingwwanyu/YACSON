@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import contrler.*;
-import contrler.TouchListenerForScrollItem;
+import Z_MajorStructure.contrler.*;
+import Z_MajorStructure.contrler.TouchListenerForScrollItem;
 import util.AlgorithmUtil;
 import util.AnimationTool;
 import util.ApplicationUtil;
@@ -46,7 +46,7 @@ public class CollectionCtl extends UICtlForSingleEvent {
 
     public CollectionCtl(UIStructDefault aUIStructDefault) {
         super(aUIStructDefault);
-        mTouchListenerDefault = new contrler.TouchListenerForScrollItem();
+        mTouchListenerDefault = new Z_MajorStructure.contrler.TouchListenerForScrollItem();
         mTouchListenerDefault.addObserver(this);
         mItemViews = new ArrayList<View>();
         mTouchViews = new ArrayList<View>();

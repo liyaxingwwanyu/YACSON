@@ -3,7 +3,7 @@ package collection;
 import java.util.Arrays;
 import java.util.List;
 
-import contrler.UILayoutConfigDefault;
+import Z_MajorStructure.contrler.UILayoutConfigDefault;
 
 
 /**

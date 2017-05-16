@@ -1,4 +1,4 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.view.MotionEvent;
 import android.view.View;

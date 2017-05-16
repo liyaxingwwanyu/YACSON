@@ -2,7 +2,7 @@ package util;
 
 import android.content.Context;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
 import view.Location;
 

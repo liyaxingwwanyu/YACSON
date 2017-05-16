@@ -1,10 +1,10 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 
-import observer.IObserver;
-import observer.ObservableDefault;
+import Z_MajorStructure.observer.IObserver;
+import Z_MajorStructure.observer.ObservableDefault;
 import util.DateTime;
 
 /**

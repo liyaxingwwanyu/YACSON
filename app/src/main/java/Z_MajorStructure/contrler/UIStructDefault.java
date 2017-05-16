@@ -1,4 +1,4 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.BSModelDefault;
+import Z_MajorStructure.model.BSModelDefault;
 
 /**
  * Created by sheenly on 16/3/7.

@@ -1,4 +1,4 @@
-package observer;
+package Z_MajorStructure.observer;
 
 import java.util.ArrayList;
 import java.util.List;

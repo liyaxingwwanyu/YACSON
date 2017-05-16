@@ -3,8 +3,8 @@ package login;
 import android.text.Editable;
 import android.text.TextWatcher;
 
-import contrler.UIDataDefault;
-import observer.ObservableDefault;
+import Z_MajorStructure.contrler.UIDataDefault;
+import Z_MajorStructure.observer.ObservableDefault;
 
 
 /**

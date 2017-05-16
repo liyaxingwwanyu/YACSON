@@ -1,4 +1,4 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.widget.ScrollView;
 import java.util.ArrayList;
 import java.util.List;
 
-import observer.IObserver;
+import Z_MajorStructure.observer.IObserver;
 
 
 /**

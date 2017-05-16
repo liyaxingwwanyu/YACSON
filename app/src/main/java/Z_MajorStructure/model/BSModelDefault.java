@@ -1,10 +1,10 @@
-package model;
+package Z_MajorStructure.model;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import observer.ObservableDefault;
+import Z_MajorStructure.observer.ObservableDefault;
 
 /**
  * Created by sheenly on 16/3/23.

@@ -9,8 +9,8 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import collection.UILayoutConfigForMiniSite;
-import contrler.ClickCtl;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.UIStructDefault;
 import util.ImageUtil;
 
 

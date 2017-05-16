@@ -1,4 +1,4 @@
-package server;
+package Z_MajorStructure.server;
 
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;

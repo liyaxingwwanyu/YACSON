@@ -14,9 +14,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import model.BSModelDefault;
-import server.AgentVoData;
-import server.HttpRequestDefault;
+import Z_MajorStructure.model.BSModelDefault;
+import Z_MajorStructure.server.AgentVoData;
+import Z_MajorStructure.server.HttpRequestDefault;
 import top.coolook.gather.Gather;
 import top.coolook.model.User;
 import top.coolook.vo.AgentVo;

@@ -6,9 +6,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import contrler.ClickCtl;
-import contrler.NumPwdListener;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.NumPwdListener;
+import Z_MajorStructure.contrler.UIStructDefault;
 import util.MyDialog;
 
 

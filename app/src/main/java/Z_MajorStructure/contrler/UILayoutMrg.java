@@ -1,4 +1,4 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.content.Context;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import java.util.HashMap;
 import java.util.Map;
 
-import model.BSModelDefault;
-import observer.IObserver;
+import Z_MajorStructure.model.BSModelDefault;
+import Z_MajorStructure.observer.IObserver;
 import util.AnimationTool;
 import util.CtlUtil;
 import util.ReflectUtil;

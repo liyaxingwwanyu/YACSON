@@ -1,7 +1,7 @@
 package login;
 
 
-import model.BSModelDefault;
+import Z_MajorStructure.model.BSModelDefault;
 
 /**
  * Created by Administrator on 2017/3/8.

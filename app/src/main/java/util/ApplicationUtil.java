@@ -22,7 +22,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -2,8 +2,8 @@ package login;
 
 import android.view.View;
 
-import contrler.UIDataDefault;
-import observer.ObservableDefault;
+import Z_MajorStructure.contrler.UIDataDefault;
+import Z_MajorStructure.observer.ObservableDefault;
 
 
 /**

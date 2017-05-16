@@ -1,9 +1,9 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import android.view.MotionEvent;
 import android.view.View;
 
-import observer.ObservableDefault;
+import Z_MajorStructure.observer.ObservableDefault;
 
 /**
  * Created by sheenly on 16/3/25.

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import collection.UILayoutConfigForMiniSite;
-import contrler.UILayoutConfigDefault;
+import Z_MajorStructure.contrler.UILayoutConfigDefault;
 
 
 /**

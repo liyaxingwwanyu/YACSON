@@ -1,4 +1,4 @@
-package observer;
+package Z_MajorStructure.observer;
 
 /**
  * Created by sheenly on 16/3/9.

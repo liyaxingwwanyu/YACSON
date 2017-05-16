@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
 /**
  * Created by wty on 2017/3/30.

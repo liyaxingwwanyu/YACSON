@@ -1,4 +1,4 @@
-package CustomView;
+package customview;
 
 import android.content.Context;
 import android.graphics.Rect;

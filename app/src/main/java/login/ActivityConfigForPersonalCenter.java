@@ -6,15 +6,15 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import contrler.UILayoutMrg;
-import contrler.UIStructDefault;
-import model.BSModelDefault;
-import observer.IObserver;
+import Z_MajorStructure.contrler.UILayoutMrg;
+import Z_MajorStructure.contrler.UIStructDefault;
+import Z_MajorStructure.model.BSModelDefault;
+import Z_MajorStructure.observer.IObserver;
 import util.ApplicationUtil;
 import util.BSConfig;
 import util.Consts;

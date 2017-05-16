@@ -2,8 +2,8 @@ package login;
 
 import android.widget.TextView;
 
-import contrler.ClickCtl;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.UIStructDefault;
 
 
 /**

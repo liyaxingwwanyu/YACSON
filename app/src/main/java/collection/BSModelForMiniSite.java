@@ -3,8 +3,8 @@ package collection;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import contrler.UIDataDefault;
-import model.BSModelDefault;
+import Z_MajorStructure.contrler.UIDataDefault;
+import Z_MajorStructure.model.BSModelDefault;
 import util.AlgorithmUtil;
 
 /**

@@ -4,11 +4,11 @@ import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
-import contrler.ClickCtl;
-import contrler.UIDataDefault;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.UIDataDefault;
+import Z_MajorStructure.contrler.UIStructDefault;
 import util.ApplicationUtil;
 
 

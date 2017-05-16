@@ -1,8 +1,8 @@
 package login;
 
 
-import contrler.ClickCtl;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.UIStructDefault;
 
 /**
  * Created by Administrator on 2016/5/28.

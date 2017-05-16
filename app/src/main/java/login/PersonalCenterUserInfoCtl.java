@@ -10,10 +10,10 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import contrler.ClickCtl;
-import contrler.NumPwdListener;
-import contrler.UIDataDefault;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.NumPwdListener;
+import Z_MajorStructure.contrler.UIDataDefault;
+import Z_MajorStructure.contrler.UIStructDefault;
 import util.ApplicationUtil;
 import util.CtlUtil;
 import util.MyDialog;

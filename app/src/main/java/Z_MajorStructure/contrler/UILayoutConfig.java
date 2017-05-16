@@ -1,4 +1,4 @@
-package contrler;
+package Z_MajorStructure.contrler;
 
 import java.util.Arrays;
 import java.util.List;

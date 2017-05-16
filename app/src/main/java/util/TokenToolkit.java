@@ -7,8 +7,8 @@ import android.text.TextUtils;
 import java.net.URLEncoder;
 
 import login.BSModelForLogin;
-import server.AgentVoData;
-import server.HttpRequestDefault;
+import Z_MajorStructure.server.AgentVoData;
+import Z_MajorStructure.server.HttpRequestDefault;
 import top.coolook.gather.Gather;
 import top.coolook.gather.utils.DES;
 import top.coolook.vo.AgentVo;

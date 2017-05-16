@@ -15,7 +15,7 @@ import android.graphics.drawable.NinePatchDrawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.newcoolook_0329.R;
+import com.ya.cson.R;
 
 
 /**

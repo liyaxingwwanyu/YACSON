@@ -9,9 +9,9 @@ import android.widget.ImageView;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-import contrler.ClickCtl;
-import contrler.NumPwdListener;
-import contrler.UIStructDefault;
+import Z_MajorStructure.contrler.ClickCtl;
+import Z_MajorStructure.contrler.NumPwdListener;
+import Z_MajorStructure.contrler.UIStructDefault;
 import util.ImageUtil;
 
 
