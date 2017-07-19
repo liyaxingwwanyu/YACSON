@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/main_bg"
+              android:orientation="vertical"
+              app:isColorUi="true"
+    >
+
+    <!--<me.weyye.todaynews.ui.view.PullZoomLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:pzMain="@layout/mine_fragment_content"-->
+    <!--app:pzHeader="@layout/mine_fragment_header"></me.weyye.todaynews.ui.view.PullZoomLayout>-->
+    <me.weyye.todaynews.ui.view.HeaderZoomLayout
+        android:id="@+id/zommLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/mine_fragment_header"/>
+
+            <include layout="@layout/mine_fragment_content"/>
+        </LinearLayout>
+    </me.weyye.todaynews.ui.view.HeaderZoomLayout>
+    <!--<me.weyye.todaynews.ui.view.MyScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></me.weyye.todaynews.ui.view.MyScrollView>-->
+</LinearLayout>
