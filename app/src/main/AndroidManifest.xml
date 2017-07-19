@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ya.cson">
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <!--    // &lt;!&ndash; 视频全屏需要 &ndash;&gt;-->
-    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <!--<application-->
-        <!--android:allowBackup="true"-->
-        <!--android:icon="@mipmap/ic_launcher"-->
-        <!--android:label="@string/app_name"-->
-        <!--android:supportsRtl="true"-->
-        <!--android:theme="@style/AppTheme">-->
+          package="me.weyye.todaynews">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name="view.Location"
+        android:name=".base.BaseApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_icon"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:largeHeap="true">
-
-
-
-
-        <activity android:name="login.LoginRegisterActivity">
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.MainActivity">
+        </activity>
+        <activity android:name=".ui.activity.SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.activity.NewsDetailActivity"/>
+        <activity android:name=".ui.activity.VideoDetailActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="snssdk32" android:host="detail"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.ChannelActivity">
+             <!--<intent-filter>-->
+             <!--<action android:name="android.intent.action.MAIN" />-->
 
-        <activity android:name="login.PersonalCenterActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name="collection.CollectionActivity"
-            android:screenOrientation="portrait"/>
+
+             <!--<category android:name="android.intent.category.LAUNCHER" />-->
+             <!--</intent-filter>-->
+        </activity>
     </application>
 
 </manifest>

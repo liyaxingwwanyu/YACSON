@@ -1,74 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="LockPatternView">
-
-        <!--
-             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
-             or "lock_height"
-
-        -->
-        <attr name="aspect" format="string" />
+    <declare-styleable name="ColorTrackView">
+        <attr name="ctvText" format="string"/>
+        <attr name="ctvText_size" format="dimension"/>
+        <attr name="ctvText_origin_color" format="color"/>
+        <attr name="ctvText_change_color" format="color"/>
+        <attr name="ctvProgress" format="float"/>
+        <attr name="ctvDirection" format="integer"/>
     </declare-styleable>
-    <declare-styleable name="roundedimageview">
-        <attr name="border_thickness" format="dimension" />
-        <attr name="border_inside_color" format="color" />
-        <attr name="border_outside_color" format="color"></attr>
+    <declare-styleable name="PullZoomLayout">
+        <attr name="pzHeader" format="reference"/>
+        <attr name="pzMain" format="reference"/>
     </declare-styleable>
-    <declare-styleable name="SlidingMenu">
-        <attr name="mode">
-            <enum name="left" value="0" />
-            <enum name="right" value="1" />
-        </attr>
-        <attr name="viewAbove" format="reference" />
-        <attr name="viewBehind" format="reference" />
-        <attr name="behindOffset" format="dimension" />
-        <attr name="behindWidth" format="dimension" />
-        <attr name="behindScrollScale" format="float" />
-        <attr name="touchModeAbove">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-        </attr>
-        <attr name="touchModeBehind">
-            <enum name="margin" value="0" />
-            <enum name="fullscreen" value="1" />
-        </attr>
-        <attr name="shadowDrawable" format="reference" />
-        <attr name="shadowWidth" format="dimension" />
-        <attr name="fadeEnabled" format="boolean" />
-        <attr name="fadeDegree" format="float" />
-        <attr name="selectorEnabled" format="boolean" />
-        <attr name="selectorDrawable" format="reference" />
+    <declare-styleable name="HtmlTextView">
+        <attr name="loadingImg" format="reference"/>
+        <attr name="errorImg" format="reference"/>
+        <attr name="defaultWidth" format="reference"/>
+        <attr name="defaultHeight" format="reference"/>
     </declare-styleable>
-
-    <!--               丁山  移动话题布局资源  start -->
-    <declare-styleable name="MoveTopicDragLinearLayout">
-        <attr name="moveTopicScrollSensitiveHeight" format="dimension" />
-    </declare-styleable>
-    <!--               丁山  移动话题布局资源  end -->
-    <!--               三中 话题渐变  start -->
-    <declare-styleable name="ColorTrackRadioButton">
-        <attr name="text" format="string" />
-        <attr name="textSize" format="dimension" />
-        <attr name="textOriginColor" format="color|reference" />
-        <attr name="textChangeColor" format="color|reference" />
-        <attr name="progress" format="float" />
-        <attr name="direction">
-            <enum name="left" value="0" />
-            <enum name="right" value="1" />
-        </attr>
-    </declare-styleable>
-    <!--               三中 话题渐变  end -->
-
-    <declare-styleable name="refresh_PullRefreshLayout">
-        <attr name="refreshType" format="enum">
-            <enum name="material" value="0" />
-            <enum name="circles" value="1" />
-            <enum name="water_drop" value="2" />
-            <enum name="ring" value="3" />
-            <enum name="smartisan" value="4" />
-        </attr>
-        <attr name="refreshColors" format="reference"/>
-        <attr name="refreshColor" format="reference"/>
-    </declare-styleable>
+    <attr name="clickableBackground" format="reference"/>
+    <attr name="main_bg" format="reference|color"/>
+    <attr name="white_bg" format="reference|color"/>
+    <attr name="font_color" format="reference|color"/>
+    <attr name="font_color2" format="reference|color"/>
+    <attr name="font_red" format="reference|color"/>
+    <attr name="isColorUi" format="boolean"/>
+    <attr name="divider_black" format="reference|color"/>
+    <attr name="divider_light_grey" format="reference|color"/>
 </resources>
