@@ -27,7 +27,7 @@ import static me.weyye.todaynews.R.id.banner_view;
  */
 
 public class SplashActivity extends BaseActivity {
-    final int COUT_DOWN_TIME = 5;
+    final int COUT_DOWN_TIME = 3;
     @BindView(banner_view)
     ImageView mBannerView;
     @BindView(R.id.splash_view)

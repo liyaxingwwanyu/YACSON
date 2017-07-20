@@ -20,8 +20,9 @@ public interface ApiService {
 //    String API_SERVER_URL = "http://192.168.0.116:88/";
     String HOST = "http://www.toutiao.com/";
     String API_SERVER_URL = HOST + "api/";
-
-    String URL_ARTICLE_FEED = "/api/article/recent/";
+    //https://www.toutiao.com/api/article/feed/?category=news_hot&utm_source=toutiao&widen=1&max_behot_time=0&max_behot_time_tmp=0&tadrequire=true&as=A11539B37F25C95&cp=593FA5BC29856E1
+    String URL_ARTICLE_FEED = "/api/article/feed/";
+    //    String URL_ARTICLE_FEED = "/api/article/recent/";
     String URL_COMMENT_LIST = "comment/list/";
     String HOST_VIDEO = "http://i.snssdk.com";
     String URL_VIDEO = "/video/urls/v/1/toutiao/mp4/%s?r=%s";
@@ -31,6 +32,7 @@ public interface ApiService {
      * 获取新闻数据列表
      */
     @GET(URL_ARTICLE_FEED + "?source=2&as=A1C528E25E76FB8&cp=582EC64FEBD84E1")
+//    @GET(URL_ARTICLE_FEED + "?category&utm_source=toutiao&widen=1&max_behot_time=0&max_behot_time_tmp=0&tadrequire=true&as=A11539B37F25C95&cp=593FA5BC29856E1")
     Observable<ResultResponse<List<News>>> getNews(@Query("category") String category);
 
     /**
