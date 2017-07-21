@@ -95,32 +95,7 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
 
-            <ImageView
-                android:id="@+id/ivIconAttention"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_centerHorizontal="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/b_newcare_tabbar_selector"
-                app:isColorUi="true"/>
-
-            <TextView
-                android:id="@+id/tvTextAttention"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ivIconAttention"
-                android:layout_centerHorizontal="true"
-                android:text="关注"
-                android:textColor="?attr/font_color"
-                android:textSize="11sp"
-                app:isColorUi="true"/>
-
-        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="0dp"

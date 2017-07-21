@@ -8,6 +8,7 @@
 
     <me.weyye.todaynews.ui.view.colortrackview.ColorTrackTabLayout
         android:id="@+id/tab"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentLeft="true"

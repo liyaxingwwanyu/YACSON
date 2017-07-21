@@ -110,7 +110,7 @@ public class HomeFragment extends BaseMvpFragment<HomePresenter> implements IHom
             String[] titleStr = getResources().getStringArray(R.array.home_title);
             String[] titlesCode = getResources().getStringArray(R.array.home_title_code);
             //默认添加了全部频道
-            for (int i = 0; i < titlesCode.length; i++) {
+            for (int i = 0; i < 1; i++) {//话题改为一个 titlesCode.length
                 String t = titleStr[i];
                 String code = titlesCode[i];
                 mSelectedDatas.add(new Channel(t, code));

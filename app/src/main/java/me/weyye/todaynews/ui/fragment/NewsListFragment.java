@@ -36,7 +36,7 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
     SwipeRefreshLayout srl;
     @BindView(R.id.loadingView)
     LoadingFlashView loadingView;
-    private String mTitleCode = "";
+    protected String mTitleCode = "";
     protected List<News> mDatas = new ArrayList<>();
     protected BaseQuickAdapter mAdapter;
 
@@ -66,7 +66,8 @@ public class NewsListFragment extends BaseMvpFragment<NewsListPresenter> impleme
 
     @Override
     protected void processLogic() {
-        initCommonRecyclerView(createAdapter(), null);
+//        initCommonRecyclerView(createAdapter(), null);
+        initGridRecyclerView(createAdapter(), null,2);//更换为瀑布流样式
         mTitleCode = getArguments().getString(ConstanceValue.DATA);
 //        srl.measure(0, 0);
 //        srl.setRefreshing(true);

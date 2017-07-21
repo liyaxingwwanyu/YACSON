@@ -9,6 +9,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayer;
 import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerManager;
 import me.weyye.todaynews.ui.adapter.VideoAdapter;
+import me.weyye.todaynews.utils.ConstanceValue;
 
 /**
  * Created by Administrator on 2017/2/8 0008.
@@ -43,7 +44,15 @@ public class VideoListFragment extends NewsListFragment {
             }
         });
     }
-
+    //重写父类方法，新闻列表为瀑布流样式， 视频列表为列表样式
+    @Override
+    protected void processLogic() {
+        initCommonRecyclerView(createAdapter(), null);
+//        initGridRecyclerView(createAdapter(), null,2);//更换为瀑布流样式
+        mTitleCode = getArguments().getString(ConstanceValue.DATA);
+//        srl.measure(0, 0);
+//        srl.setRefreshing(true);
+    }
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);

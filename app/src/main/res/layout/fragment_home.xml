@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -27,6 +28,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
+        android:visibility="gone"
         android:layout_height="35dp">
         <!--app:ctTabTextColor="@color/ssxinheihui1"-->
         <!--app:ctTabSelectedTextColor="@color/ssxinhongse1"-->
@@ -41,7 +43,7 @@
             android:layout_marginTop="6.0dip"
             android:layout_toLeftOf="@+id/icon_category"
             android:src="@drawable/ic_new_category_tip_dark"
-            android:visibility="gone"
+
             />
 
 
@@ -88,11 +90,12 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:visibility="gone"
         android:background="?attr/divider_light_grey"
         app:isColorUi="true"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+        android:layout_height="match_parent"/>
 </LinearLayout>

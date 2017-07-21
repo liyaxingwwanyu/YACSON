@@ -45,10 +45,11 @@ public class FragmentController {
 
             fragments.add(new HomeFragment());
             fragments.add(new VideoFragment());
-            fragments.add(new AttentionFragment());
+//            fragments.add(new AttentionFragment());
             fragments.add(new MeFragment());
 
             FragmentTransaction ft = fm.beginTransaction();
+            System.out.println("FragmentController.initFragment=="+fragments.size());
             for (int i = 0; i < fragments.size(); i++) {
                 ft.add(containerId, fragments.get(i), "" + i);
             }

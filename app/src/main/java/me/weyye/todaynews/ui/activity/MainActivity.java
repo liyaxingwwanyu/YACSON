@@ -31,9 +31,9 @@ public class MainActivity extends BaseActivity {
     ImageView ivIconVideo;
     @BindView(R.id.tvTextVideo)
     TextView tvTextVideo;
-    @BindView(R.id.ivIconAttention)
-    ImageView ivIconAttention;
-    @BindView(R.id.tvTextAttention)
+//    @BindView(R.id.ivIconAttention)
+//    ImageView ivIconAttention;
+//    @BindView(R.id.tvTextAttention)
     TextView tvTextAttention;
     @BindView(R.id.ivIconMe)
     ImageView ivIconMe;

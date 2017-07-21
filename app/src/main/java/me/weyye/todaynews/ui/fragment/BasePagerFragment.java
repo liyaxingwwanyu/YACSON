@@ -36,7 +36,7 @@ public abstract class BasePagerFragment extends BaseFragment {
     @Override
     protected void processLogic() {
         List<BaseFragment> fragments = new ArrayList<>();
-        for (int i = 0; i < getTitles().length; i++) {
+        for (int i = 0; i < 1; i++) {// 视频列表
             BaseFragment fragment = getFragment(i);
             fragments.add(fragment);
         }

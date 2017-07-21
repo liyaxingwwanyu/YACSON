@@ -50,6 +50,7 @@ public class VideoFragment extends BasePagerFragment {
 
     @Override
     protected void processLogic() {
+
         super.processLogic();
     }
 
