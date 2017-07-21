@@ -36,21 +36,24 @@ public class JCVideoPlayerStandard extends JCVideoPlayer {
     public ImageView thumbImageView;
     public ImageView tinyBackImageView;
 
-
+    private Context mContext;
     protected DismissControlViewTimerTask mDismissControlViewTimerTask;
 
 
     public JCVideoPlayerStandard(Context context) {
         super(context);
+        mContext = context;
     }
 
     public JCVideoPlayerStandard(Context context, AttributeSet attrs) {
         super(context, attrs);
+        mContext = context;
     }
 
     @Override
     public void init(Context context) {
         super.init(context);
+        mContext = context;
         bottomProgressBar = (ProgressBar) findViewById(R.id.bottom_progressbar);
         titleTextView = (TextView) findViewById(R.id.title);
         backButton = (ImageView) findViewById(R.id.back);
@@ -294,6 +297,15 @@ public class JCVideoPlayerStandard extends JCVideoPlayer {
     public void setProgressAndText() {
         super.setProgressAndText();
         int position = getCurrentPositionWhenPlaying();
+        if (position > 10000) {
+            Toast.makeText(mContext, "骚年注意身体", Toast.LENGTH_SHORT).show();
+            System.out.println("JCVideoPlayer.setProgressAndText=骚年注意身体=");
+            onEvent(JCUserAction.ON_CLICK_PAUSE);
+//            setUiWitStateAndScreen(CURRENT_STATE_PAUSE);
+            JCMediaManager.instance().mediaPlayer.pause();
+            cancelProgressTimer();
+            return;
+        }
         int duration = getDuration();
         int progress = position * 100 / (duration == 0 ? 1 : duration);
         if (progress != 0) bottomProgressBar.setProgress(progress);
